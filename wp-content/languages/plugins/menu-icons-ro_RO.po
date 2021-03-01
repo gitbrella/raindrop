@@ -1,0 +1,220 @@
+# Translation of Plugins - Menu Icons by ThemeIsle - Development (trunk) in Romanian
+# This file is distributed under the same license as the Plugins - Menu Icons by ThemeIsle - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-07 18:19:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Menu Icons by ThemeIsle - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the plugin
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Codeinwp/wp-menu-icons"
+msgstr "https://github.com/Codeinwp/wp-menu-icons"
+
+#: includes/settings.php:730
+msgid "the customizer"
+msgstr "personalizatorul"
+
+#: menu-icons.php:167
+msgid "Looks like Menu Icons was installed via Composer. Please activate Icon Picker first."
+msgstr "Se pare că Menu Icons a fost instalat via Composer. Te rog activează mai întâi Icon Picker."
+
+#: includes/settings.php:721
+msgid "Change"
+msgstr "Modifică"
+
+#: includes/settings.php:579
+msgid "SVG Width"
+msgstr "Lățime SVG"
+
+#: includes/picker.php:75
+msgid "Type"
+msgstr "Tip"
+
+#. Description of the plugin
+msgid "Spice up your navigation menus with pretty icons, easily."
+msgstr "Îți face mai incitante meniurile de navigare cu iconuri frumoase, foarte ușor."
+
+#. Plugin Name of the plugin
+msgid "Menu Icons"
+msgstr "Menu Icons"
+
+#: menu-icons.php:138
+msgid "Menu Icons: No registered icon types found."
+msgstr "Iconuri meniu: niciun tip de icon înregistrat găsit."
+
+#: includes/settings.php:590
+msgid "Image Size"
+msgstr "Dimensiune imagine"
+
+#: includes/library/functions.php:82
+msgid "Full Size"
+msgstr "Dimensiune completă"
+
+#: includes/library/functions.php:81
+msgid "Large"
+msgstr "Mare"
+
+#: includes/library/functions.php:80
+msgid "Medium"
+msgstr "Medie"
+
+#: includes/library/functions.php:79
+msgid "Thumbnail"
+msgstr "Miniatură"
+
+#: includes/settings.php:557
+msgid "Bottom"
+msgstr "Jos"
+
+#: includes/settings.php:553
+msgid "Text Bottom"
+msgstr "Text jos"
+
+#: includes/settings.php:549
+msgid "Baseline"
+msgstr "La bază"
+
+#: includes/settings.php:545
+msgid "Middle"
+msgstr "La mijloc"
+
+#: includes/settings.php:541
+msgid "Text Top"
+msgstr "Text sus"
+
+#: includes/settings.php:537
+msgid "Top"
+msgstr "Sus"
+
+#: includes/settings.php:533
+msgid "Super"
+msgstr "Super"
+
+#: includes/settings.php:528
+msgid "Vertical Align"
+msgstr "Aliniere verticală"
+
+#: includes/settings.php:568
+msgid "Font Size"
+msgstr "Dimensiune font"
+
+#: includes/settings.php:419
+msgid "Save Settings"
+msgstr "Salvează setările"
+
+#: includes/settings.php:410
+msgid "Reset"
+msgstr "Resetare"
+
+#: includes/settings.php:409
+msgid "Discard all changes and reset to default state"
+msgstr "Renunță la toate modificările și resetează la starea implicită"
+
+#: includes/settings.php:367 includes/settings.php:390
+msgid "Extensions"
+msgstr "Extensii"
+
+#: includes/settings.php:470
+msgid "\"%s\" menu settings"
+msgstr "Setări meniu „%s”"
+
+#: includes/settings.php:468
+msgid "Current Menu"
+msgstr "Meniu actual"
+
+#: includes/settings.php:452
+msgid "Icon Types"
+msgstr "Tipuri de icon"
+
+#: includes/settings.php:447
+msgid "Global settings"
+msgstr "Setări globale"
+
+#: includes/settings.php:446
+msgid "Global"
+msgstr "Globale"
+
+#: includes/settings.php:521
+msgid "After"
+msgstr "După"
+
+#: includes/settings.php:517
+msgid "Before"
+msgstr "Înainte"
+
+#: includes/settings.php:512
+msgid "Position"
+msgstr "Poziție"
+
+#: includes/settings.php:505
+msgid "Yes"
+msgstr "Da"
+
+#: includes/settings.php:501
+msgid "No"
+msgstr "Nu"
+
+#: includes/settings.php:496
+msgid "Hide Label"
+msgstr "Ascunde etichetă"
+
+#: includes/settings.php:295
+msgid "Menu Icons Settings"
+msgstr "Setări iconuri meniu"
+
+#: includes/settings.php:330
+msgid "<strong>Menu Icons Settings</strong> have been successfully reset."
+msgstr "<strong>Setările iconuri meniu</strong> au fost resetate cu succes."
+
+#: includes/settings.php:329
+msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
+msgstr "<strong>Setările iconuri meniu</strong> au fost actualizate cu succes."
+
+#: includes/library/form-fields.php:152
+msgid "%1$s: Type %2$s is not supported, reverting to text."
+msgstr "%1$s: tipul %2$s nu este suportat, revenire la text."
+
+#: includes/picker.php:80 includes/picker.php:178
+msgid "Icon"
+msgstr "Icon"
+
+#: includes/picker.php:130 includes/settings.php:720
+msgid "Remove"
+msgstr "Înlătură"
+
+#: includes/picker.php:128
+msgid "Icon:"
+msgstr "Icon:"
+
+#: includes/settings.php:723
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: includes/settings.php:722
+msgid "All"
+msgstr "Toate"
+
+#: includes/picker.php:129 includes/settings.php:719
+msgid "Select"
+msgstr "Selectează"
+
+#: includes/settings.php:718
+msgid "Select Icon"
+msgstr "Selectează icon"
+
+#: includes/library/form-fields.php:528
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Selectează &mdash;"

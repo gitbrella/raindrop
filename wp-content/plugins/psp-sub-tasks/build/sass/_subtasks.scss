@@ -1,0 +1,255 @@
+#psp-projects, #psp-archive-content {
+	.psp-task-list .task-item {
+		&.sub-task-item {}
+		&.psp-is-subtask {
+			border-bottom: 0;
+		}
+	}
+	.psp-sub-tasks {
+		margin-top: 20px !important;
+	}
+	.psp-task-list .sub-task-item:last-child {
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	.psp-sub-tasks {
+		border: 1px solid #ddd;
+		padding: 20px;
+		margin-bottom: 20px;
+		position: relative;
+		&::before {
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			border-bottom: 10px solid #ddd;
+			top: -10px;
+			left: 50%;
+			margin-left: -10px;
+			content: '';
+			display: block;
+		}
+		&::after {
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			border-bottom: 10px solid #fff;
+			top: -9px;
+			left: 50%;
+			margin-left: -10px;
+			content: '';
+			display: block;
+		}
+		.sub-task-select {
+			display: none;
+			padding: 2px 10px;
+			margin: -5px 0 0 0;
+			text-align: center;
+			background: #ddd;
+			background: rgba(255, 255, 255, 0.75);
+			position: absolute;
+			width: 100%;
+		}
+		.psp-sub-task-edit-links {
+			position: absolute;
+			line-height: 18px;
+			left: 0;
+			background: rgba(255, 255, 255, 0.7);
+			width: 100%;
+			right: 0;
+			display: none;
+			height: 20px;
+			padding: 0 6px 6px;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: bold;
+		}
+	}
+	.sub-task-item {
+		margin-bottom: 20px;
+		&:hover .psp-sub-task-edit-links {
+			display: block;
+		}
+		strong {
+			font-size: 16px;
+		}
+		.psp-assigned-to,
+		.psp-task-due-date {
+			font-size: 12px;
+		}
+		.psp-sub-task-edit-links a {
+			display: inline-block;
+			font-size: 12px;
+			padding: 0 5px;
+			white-space: nowrap;
+			text-decoration: none;
+			color: #111;
+			&:hover {
+				color: #000;
+			}
+		}
+		&.complete a.complete-sub-task-link {
+			display: none;
+		}
+		span.psp-sub-progress-bar {
+			display: block;
+			height: 20px;
+			background: #efefef;
+			em.status {
+				background: #3299BB;
+				color: #fff;
+				display: block;
+				height: 20px;
+				float: left;
+				transition: all 0.5s ease;
+			 }
+		}
+	}
+	.sub-task-save-button {
+		background: #2a3542;
+		color: #fff;
+		padding: 3px 10px;
+		font-weight: bold;
+		border: 0px;
+		line-height: 1em;
+		font-size: 12px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	.psp-task-list .task-item {
+		&.sub-task-item + .task-item {
+			margin-top: 25px;
+		}
+		&.psp-is-subtask + .psp-is-subtask:last-child {
+			border-bottom: 0;
+		}
+		&.psp-has-subtask {
+			border-bottom: 0;
+			margin-bottom: 0;
+			> span.psp-task-edit-links {
+				display: none !important;
+			}
+		}
+	}
+}
+
+body:not(.archive-psp_projects) { // Only target the User Tasks view, since that has different DOM
+
+	#psp-archive-content {
+
+		// Put the styling where we can see it
+		@import "../../../project-panorama/src/assets/scss/_partials/tasks";
+
+		.psp-has-subtask {
+
+			.psp-task-table-status {
+
+				& > span.psp-task-edit-links {
+					display: none !important;
+				}
+
+			}
+
+		}
+
+		.psp-sub-tasks {
+
+			// Copy/pasta
+			@extend .psp-task-list;
+
+			.task-item {
+
+				span.psp-sub-task-edit-links {
+					display: none;
+				}
+
+				&:hover {
+
+					span.psp-sub-task-edit-links {
+						display: block;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+#psp-projects {
+
+	// Single, User Tasks, and Dashboard
+	.psp-sub-tasks {
+
+		// Ghost out the colors
+		.sub-task-edit-disabled {
+
+			// Sub Task Name
+			strong {
+
+				color: #878787;
+
+			}
+
+			.psp-assigned-to {
+
+				color: #a8a8a8;
+
+			}
+
+			span {
+
+				background: #e8e9e8;
+
+				em.status {
+					background: #8ebccd;
+				}
+
+			}
+
+		}
+
+	}
+
+	// Both the User Tasks view and the Dashboard
+	#psp-archive-content {
+
+		.psp-sub-tasks {
+
+			// Revert Padding change
+			padding: 20px !important;
+			background: #fff;
+
+		}
+
+	}
+
+	// For the Dashboard, we will always show who is assigned since the User may only be assigned to the Sub Task
+	.psp-task-project {
+
+		.psp-task-list {
+
+			b.after-task-name {
+
+				display: block;
+
+				.psp-assigned-to {
+
+					display: inline;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

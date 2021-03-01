@@ -1,0 +1,631 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:58:34
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.17                                |7.3.17
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-02-28 09:25:25
+WP VERSION__________: 5.4.4
+DUP VERSION_________: 1.3.36
+DB__________________: 5.7.31
+DB TABLES___________: 59
+DB ROWS_____________: 394,180
+DB FILE SIZE________: 44.76MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.17 | SAPI: uwsgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://dev.theumbrellacorp.tech/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "//gmy_to_core_[HASH]_20210228092525_archive.zip"
+SIZE________________: 75.58MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:58:40 - RUNTIME: 6.1965 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:59:28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.31 -- Build Server: 5.7.31
+FILE SIZE:	dup-database__[HASH].sql (26.33MB)
+TIMEOUT:	5000
+MAXPACK:	8388608
+SQLMODE:	NO_UNSIGNED_SUBTRACTION
+NEW SQL FILE:	[/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privile' at line 1' - [sql=mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS pr...]
+**ERROR** database error write 'Variable 'character_set_client' can't be set to the value of 'NULL'' - [sql=/*!40101 SET character_set_client = @saved_cs_client */;...]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	2
+DROPPED TABLES:	108
+RENAMED TABLES:	0
+QUERIES RAN:	550
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_gf_addon_feed: (0)
+wp_gf_draft_submissions: (0)
+wp_gf_entry: (0)
+wp_gf_entry_meta: (0)
+wp_gf_entry_notes: (0)
+wp_gf_form: (0)
+wp_gf_form_meta: (0)
+wp_gf_form_revisions: (0)
+wp_gf_form_view: (0)
+wp_links: (0)
+wp_options: (228)
+wp_postmeta: (2)
+wp_posts: (4)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (20)
+wp_users: (1)
+wp_wpdatacharts: (0)
+wp_wpdatareports: (0)
+wp_wpdatatables: (0)
+wp_wpdatatables_columns: (0)
+wph0_commentmeta: (11)
+wph0_comments: (11)
+wph0_duplicator_packages: (0)
+wph0_exportsreports_groups: (1)
+wph0_exportsreports_log: (0)
+wph0_exportsreports_reports: (1)
+wph0_gf_addon_feed: (0)
+wph0_gf_draft_submissions: (0)
+wph0_gf_entry: (3)
+wph0_gf_entry_meta: (9)
+wph0_gf_entry_notes: (3)
+wph0_gf_form: (4)
+wph0_gf_form_meta: (4)
+wph0_gf_form_revisions: (0)
+wph0_gf_form_view: (0)
+wph0_links: (0)
+wph0_notification_logs: (0)
+wph0_options: (282)
+wph0_postmeta: (388336)
+wph0_posts: (3814)
+wph0_swpm_members_tbl: (0)
+wph0_swpm_membership_meta_tbl: (0)
+wph0_swpm_membership_tbl: (1)
+wph0_swpm_payments_tbl: (0)
+wph0_term_relationships: (1104)
+wph0_term_taxonomy: (15)
+wph0_termmeta: (0)
+wph0_terms: (15)
+wph0_usermeta: (204)
+wph0_users: (11)
+wph0_wpdatacharts: (6)
+wph0_wpdatareports: (0)
+wph0_wpdatatables: (15)
+wph0_wpdatatables_columns: (47)
+Removed '32' cache/transient rows
+
+INSERT DATA RUNTIME: 19.5507 sec.
+STEP-2 COMPLETE @ 09:59:47 - RUNTIME: 19.5580 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:00:37
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "DEV"
+postguid______________: false
+fullsearch____________: true
+path_old______________: "/"
+path_new______________: "/"
+siteurl_______________: "http://dev.theumbrellacorp.tech"
+url_old_______________: "http://gmy.theumbrellacorp.tech"
+url_new_______________: "http://dev.theumbrellacorp.tech"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_gf_addon_feed"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   228][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:     2][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:     4][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    20][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wp_wpdatacharts"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatareports"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatatables"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatatables_columns"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_commentmeta"________________________________[ROWS:    11][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_comments"___________________________________[ROWS:    11][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_exportsreports_groups"______________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_exportsreports_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_exportsreports_reports"_____________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_gf_addon_feed"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_gf_draft_submissions"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_gf_entry"___________________________________[ROWS:     3][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_gf_entry_meta"______________________________[ROWS:     9][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_gf_entry_notes"_____________________________[ROWS:     3][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_gf_form"____________________________________[ROWS:     4][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_gf_form_meta"_______________________________[ROWS:     4][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_gf_form_revisions"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_gf_form_view"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_notification_logs"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_options"____________________________________[ROWS:   282][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_postmeta"___________________________________[ROWS:388336][PG: 111][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_posts"______________________________________[ROWS:  3814][PG:   2][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_swpm_members_tbl"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_swpm_membership_meta_tbl"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_swpm_membership_tbl"________________________[ROWS:     1][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_swpm_payments_tbl"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_term_relationships"_________________________[ROWS:  1104][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_term_taxonomy"______________________________[ROWS:    15][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_terms"______________________________________[ROWS:    15][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_usermeta"___________________________________[ROWS:   204][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_users"______________________________________[ROWS:    11][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_wpdatacharts"_______________________________[ROWS:     6][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_wpdatareports"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wph0_wpdatatables"_______________________________[ROWS:    15][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+
+EVALUATE TABLE: "wph0_wpdatatables_columns"_______________________[ROWS:    47][PG:   1][SCAN:every column]
+	SEARCH  1:"//gmy.theumbrellacorp.tech" ======================> "//dev.theumbrellacorp.tech"
+	SEARCH  2:"\/\/gmy.theumbrellacorp.tech" ====================> "\/\/dev.theumbrellacorp.tech"
+	SEARCH  3:"%2F%2Fgmy.theumbrellacorp.tech" ==================> "%2F%2Fdev.theumbrellacorp.tech"
+	SEARCH  4:"https://dev.theumbrellacorp.tech" ================> "http://dev.theumbrellacorp.tech"
+	SEARCH  5:"https:\/\/dev.theumbrellacorp.tech" ==============> "http:\/\/dev.theumbrellacorp.tech"
+	SEARCH  6:"https%3A%2F%2Fdev.theumbrellacorp.tech" ==========> "http%3A%2F%2Fdev.theumbrellacorp.tech"
+--------------------------------------
+SCANNED:	Tables:59 	|	 Rows:394156 	|	 Cells:1649912 
+UPDATED:	Tables:3 	|	 Rows:3787 	|	 Cells:3802 
+ERRORS:		0 
+RUNTIME:	11.979600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""00381766_umbrella_dev""
+	UPDATE DB_USER ""00381766_umbrella_dev""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:00:49 - RUNTIME: 12.0120 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] STEP 2 - INSTALL NOTICES (2)
+	SECTIONS: database
+	LONG MSG:         Queries that error during the deploy step are logged to the <a href="./dup-installer-log__6a4a8e7-28092525.txt" target="dup-installer">install-log.txt</a> file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-110-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (3)
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privile' at line 1' - [sql=mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS pr...]
+
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	SECTIONS: database
+	LONG MSG: **ERROR** database error write 'Variable 'character_set_client' can't be set to the value of 'NULL'' - [sql=/*!40101 SET character_set_client = @saved_cs_client */;...]
+
+====================================
